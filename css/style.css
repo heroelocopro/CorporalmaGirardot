@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* #fbec53 amarillo
+#e5392d rojo
+#3e638a azul */
+
+.amarillo{
+    background-color: #fbec53;
+}
+.textoAmarillo{
+    color: #fbec53;
+}
+.rojo{
+    background-color: #e5392d;
+}
+.textoRojo{
+    color:#e5392d;
+}
+.azul{
+    background-color: #3e638a ;
+}
+.textoAzul{
+    color: #3e638a ;
+}
+.azulbg{
+    background: rgb(115,172,232);
+    background: radial-gradient(circle, rgba(115,172,232,1) 0%, rgba(62,99,138,1) 100%);
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+.fondoPrincipal{
+    background-image: url(/public/img/PersonasAdmirandoCaballo.jpg);
+    min-height: 44.6rem;
+    min-width: 100%;
+    background-size: cover;
+}
+.contact{
+    width: 5rem;
+}
+.contact:hover{
+    cursor: pointer;
+    width: 5.1rem;
+
+}
+
+.programas{
+    border: 1px solid black;
+    border-radius: 100%;
+}
