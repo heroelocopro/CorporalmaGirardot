@@ -36,7 +36,7 @@
     text-decoration: underline;
 }
 .fondoPrincipal{
-    background-image: url(../public/img/PersonasAdmirandoCaballo.jpg);
+    background-image: url(./public/img/PersonasAdmirandoCaballo.jpg);
     min-height: 44.6rem;
     min-width: 100%;
     background-size: cover;
